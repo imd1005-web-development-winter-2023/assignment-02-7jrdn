@@ -1,3 +1,195 @@
-/*
-  CSS File
-*/
+header {
+  padding: 20px 20px;
+  border-bottom: 1px solid white;
+}
+  
+.header_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.header_logo {
+  height: 200px;
+}
+  
+.header_nav ul {
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 30px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid white;
+}
+  
+main {
+  color: white;
+  border-radius: 0px;
+  padding-bottom: 60px;
+}
+  
+main h1 {
+  margin: 60px 0px 60px 0px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.clothing_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px;
+}
+
+.items_container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.article:hover {
+  opacity: 0.6;
+}
+
+.clothing {
+  height: 300px;
+}
+
+.product_name {
+  font-weight: bold;
+  padding: 10px 0px 0px 0px;
+  text-align: left;
+}
+
+.product_price {
+  font-weight: bold;
+  padding: 2px 0px 0px 0px;
+  text-align: left;
+}
+
+.view_all {
+  background-color: white;
+  color: black;
+  padding: 10px 40px;
+  font-weight: bold;
+}
+
+main button:hover {
+  background-color: #232323;
+  color: white;
+}
+
+.categories_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.categories_container {
+  margin: 55px;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+
+.categories_container:hover {
+  opacity: 0.6;
+}
+
+.text_overlay {
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  text-shadow: black 2px 2px 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer {
+  border-top: 1px solid white;
+  padding: 30px 20px;
+  background-color: #101010;
+  color: #f1faee;
+}
+
+.newsletter_box {
+  display: flex;
+  justify-content: center;
+}
+.newsletter_container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.newsletter {
+  text-align: left;
+}
+
+.email {
+  margin: 15px 0px 0px 0px;
+  padding: 10px;
+}
+
+.subscribe {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0px;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+footer button:hover {
+  background-color: white;
+  color: black;
+}
+
+  
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #030303;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.links_box {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  color: white;
+  text-decoration-line: none;
+  margin: 10px;
+}
+
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  color: #232323;
+}
+
+footer img {
+  height: 50px;
+}
